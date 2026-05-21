@@ -8,6 +8,7 @@ public class CompanyCodingQuestionsPlatformApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CompanyCodingQuestionsPlatformApplication.class, args);
+        System.out.println("Welcome *****");
 	}
 
 }
