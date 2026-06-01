@@ -9,8 +9,7 @@ import java.util.Optional;
 public class Problem_No_09 {
 
     public static void main(String[] args) {
-        List<String> words = Arrays.asList("cat", "elephant", "dog", "giraffe", "zebra");
-
+        List<String> words = Arrays.asList("cat", "elephant", "dog", "giraffe", "zebra","lion");
         Optional<String> result=words.stream().max(Comparator.comparing(String::length));
         result.ifPresent(w->System.out.println("The Longest word is : "+w));
     }
